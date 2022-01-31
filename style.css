@@ -1,0 +1,110 @@
+body {
+  background: hsl(225, 100%, 98%);
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  color: hsl(224, 23%, 55%);
+}
+
+.card {
+  background-color: white;
+  margin: auto auto;
+  height: 630px;
+  width: 390px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.507);
+  overflow: hidden;
+}
+
+#toppic {
+  width: 100%;
+  object-fit: cover;
+}
+
+#wrapper {
+  width: 300px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+h1 {
+  font-weight: 900;
+  margin-top: 30px;
+  font-size: 25px;
+  color: hsl(223, 47%, 23%);
+}
+
+.payment {
+  background-color: hsla(228, 100%, 98%, 0.747);
+  margin: 0 40px;
+  height: 45px;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 50px;
+}
+
+.payment img {
+  float: left;
+  padding-right: 25px;
+}
+
+#str {
+  display: block;
+  font-weight: 700;
+  color: black;
+  position: relative;
+  right: 70px;
+}
+
+#price {
+  position: relative;
+  right: 50px;
+  font-size: 14px;
+}
+
+.payment a {
+  position: relative;
+  bottom: 12px;
+  left: 35px;
+  text-decoration: none;
+  color: hsl(245, 75%, 52%);
+  font-size: 14px;
+}
+
+.proceed {
+  display: block;
+  margin: 20px auto;
+  padding: 15px 90px;
+  color: white;
+  font-weight: 700;
+  background-color: hsl(245, 75%, 52%);
+  border-style: none;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px hsla(224, 56%, 68%, 0.678);
+}
+
+.proceed:hover,
+.proceed:focus {
+  background-color: hsl(245, 75%, 32%);
+  cursor: pointer;
+}
+
+.cancel {
+  padding: 15px 112px;
+  border-style: none;
+  border-radius: 10px;
+  font-weight: 700;
+  background: white;
+  color: hsl(224, 23%, 55%);
+}
+
+.cancel:hover,
+.cancel:focus {
+  background-color: hsla(228, 100%, 98%, 0.747);
+  cursor: pointer;
+}
+
+.attribution {
+  text-align: center;
+}
