@@ -1,4 +1,4 @@
-# Frent-End-Mentor-Order-Summary-Card
+# Front-End-Mentor-Order-Summary-Card
 This is a challenge from Front End Mentor
 
 My first challange on Front End Mentor.
